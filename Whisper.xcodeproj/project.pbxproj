@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AC9349AC2228D31F00540E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349AB2228D31F00540E26 /* AppDelegate.swift */; };
-		AC9349AE2228D31F00540E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349AD2228D31F00540E26 /* ViewController.swift */; };
 		AC9349B12228D31F00540E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9349AF2228D31F00540E26 /* Main.storyboard */; };
 		AC9349B32228D32000540E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9349B22228D32000540E26 /* Assets.xcassets */; };
 		AC9349B62228D32000540E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9349B42228D32000540E26 /* LaunchScreen.storyboard */; };
+		AC9349BE2228DEE100540E26 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349BD2228DEE100540E26 /* SignUpViewController.swift */; };
+		AC9349C02228E49300540E26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349BF2228E49300540E26 /* LoginViewController.swift */; };
+		AC9349C22228E64A00540E26 /* RoundUIButton copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349C12228E64A00540E26 /* RoundUIButton copy.swift */; };
+		AC9349C42228F21A00540E26 /* WhisperChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9349C32228F21A00540E26 /* WhisperChatTableViewController.swift */; };
+		FC86934B0A2846AF13170501 /* Pods_Whisper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C3016BCDF08ECA2D048D7 /* Pods_Whisper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		438C3016BCDF08ECA2D048D7 /* Pods_Whisper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4510D6298E5B38B91DBE967F /* Pods-Whisper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whisper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whisper/Pods-Whisper.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9349A82228D31F00540E26 /* Whisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whisper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9349AB2228D31F00540E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC9349AD2228D31F00540E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC9349B02228D31F00540E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9349B22228D32000540E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9349B52228D32000540E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9349B72228D32000540E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9349BD2228DEE100540E26 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AC9349BF2228E49300540E26 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC9349C12228E64A00540E26 /* RoundUIButton copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoundUIButton copy.swift"; sourceTree = "<group>"; };
+		AC9349C32228F21A00540E26 /* WhisperChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperChatTableViewController.swift; sourceTree = "<group>"; };
+		DA571F042FED1A1D39331BA1 /* Pods-Whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whisper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whisper/Pods-Whisper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC86934B0A2846AF13170501 /* Pods_Whisper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29C24FC8565168D0BAA73937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438C3016BCDF08ECA2D048D7 /* Pods_Whisper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CAEA3C9D74A521B81498E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4510D6298E5B38B91DBE967F /* Pods-Whisper.debug.xcconfig */,
+				DA571F042FED1A1D39331BA1 /* Pods-Whisper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC93499F2228D31F00540E26 = {
 			isa = PBXGroup;
 			children = (
 				AC9349AA2228D31F00540E26 /* Whisper */,
 				AC9349A92228D31F00540E26 /* Products */,
+				6CAEA3C9D74A521B81498E55 /* Pods */,
+				29C24FC8565168D0BAA73937 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +84,15 @@
 		AC9349AA2228D31F00540E26 /* Whisper */ = {
 			isa = PBXGroup;
 			children = (
+				AC9349C12228E64A00540E26 /* RoundUIButton copy.swift */,
 				AC9349AB2228D31F00540E26 /* AppDelegate.swift */,
-				AC9349AD2228D31F00540E26 /* ViewController.swift */,
 				AC9349AF2228D31F00540E26 /* Main.storyboard */,
 				AC9349B22228D32000540E26 /* Assets.xcassets */,
 				AC9349B42228D32000540E26 /* LaunchScreen.storyboard */,
 				AC9349B72228D32000540E26 /* Info.plist */,
+				AC9349BD2228DEE100540E26 /* SignUpViewController.swift */,
+				AC9349BF2228E49300540E26 /* LoginViewController.swift */,
+				AC9349C32228F21A00540E26 /* WhisperChatTableViewController.swift */,
 			);
 			path = Whisper;
 			sourceTree = "<group>";
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9349BA2228D32000540E26 /* Build configuration list for PBXNativeTarget "Whisper" */;
 			buildPhases = (
+				41BA39A9D56223901AE3580D /* [CP] Check Pods Manifest.lock */,
 				AC9349A42228D31F00540E26 /* Sources */,
 				AC9349A52228D31F00540E26 /* Frameworks */,
 				AC9349A62228D31F00540E26 /* Resources */,
+				D9B466412012A9636866B16D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +165,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41BA39A9D56223901AE3580D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Whisper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B466412012A9636866B16D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Whisper/Pods-Whisper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whisper/Pods-Whisper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC9349A42228D31F00540E26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9349AE2228D31F00540E26 /* ViewController.swift in Sources */,
+				AC9349C22228E64A00540E26 /* RoundUIButton copy.swift in Sources */,
+				AC9349C02228E49300540E26 /* LoginViewController.swift in Sources */,
+				AC9349C42228F21A00540E26 /* WhisperChatTableViewController.swift in Sources */,
+				AC9349BE2228DEE100540E26 /* SignUpViewController.swift in Sources */,
 				AC9349AC2228D31F00540E26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +367,7 @@
 		};
 		AC9349BB2228D32000540E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4510D6298E5B38B91DBE967F /* Pods-Whisper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +386,7 @@
 		};
 		AC9349BC2228D32000540E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA571F042FED1A1D39331BA1 /* Pods-Whisper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
